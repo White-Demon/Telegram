@@ -10,7 +10,7 @@ package org.telegram.SQLite;
 
 public class SQLiteException extends Exception {
 	private static final long serialVersionUID = -2398298479089615621L;
-	public final int errorCode;
+	public final int errorCode = 0; 
 	
 	public SQLiteException(int errcode, String msg) {
 		super(msg);
